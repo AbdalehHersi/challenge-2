@@ -26,6 +26,10 @@ nav {
     overflow-x: hidden;
     padding-top: 20px;
   }
+nav ul {
+  padding: 20px;
+  list-style: none;
+}
 
 nav a {
     margin: 0 -.25rem;
@@ -44,6 +48,7 @@ nav a:hover {
 
 nav h1 {
   color: #41342e;
+  padding: 5px;
 }
 
 .avatar {
@@ -140,19 +145,20 @@ main {
   padding: 20px;
   transition: 0.3s;
 }
+#projects {
+  display: inline;
+  width: 120%;
+}
 
 .h1Header {
   display: inline;
-  border-right: solid#41342e 2px;
+  text-align: center;
 }
 
 #about:hover {
   transform: scale(1.025);
 }
 
-.h1Header {
-  text-align: center;
-}
 
 
 @media screen and (max-width: 740px){
