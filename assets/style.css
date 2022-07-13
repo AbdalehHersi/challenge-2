@@ -291,11 +291,6 @@ main {
 
 }
 
-/* #contact:hover {
-  transform: scale(1.015);
-  transition: 0.3s;
-} */
-
 #online {
   margin: 0;
   padding: 0;
@@ -372,8 +367,6 @@ main {
   left: 50%;
   left: 50%;
   transform: translateX(-50%);
-  /* background: #cd5f3a; */
-
 }
 
 .containerOnline .cardOnline .slide.slide2 .contentOnline p {
